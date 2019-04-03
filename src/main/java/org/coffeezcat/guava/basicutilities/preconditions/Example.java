@@ -10,7 +10,7 @@ import com.google.common.base.Preconditions;
  */
 public class Example {
     public static void main(String[] args) {
-        int i = 9;
-        Preconditions.checkArgument(i>11,"%s must greater than 11",i);
+        int i = 9,j=11;
+        Preconditions.checkArgument(i>11,"%s must greater than %s",i,j);
     }
 }
