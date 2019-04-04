@@ -3,6 +3,7 @@
 &#8195;&#8195;另外使用null还会产生歧义，比如说map,当get的值是null的时候究竟是没有设置值还是获取的值为null呢,这会让程序产生疑惑。
 ### guava解决方案
 >guava 使用 Optional 来解决上述问题。  
+
 ####基本用法
 ```
 Optional<Integer> possible = Optional.of(10);
@@ -13,6 +14,7 @@ possible.get(); // returns 10
 >Optional 主类 <br/> 
 > Present 当引用不为空时候的子类<br/> 
 > Absent 当引用为null时候的子类
+
 ####  主要方法
 创建Optional实例（以下都是静态方法）:
 ```
