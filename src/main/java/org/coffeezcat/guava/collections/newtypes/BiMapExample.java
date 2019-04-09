@@ -15,7 +15,6 @@ public class BiMapExample {
     public void testHashBiMap(){
         BiMap<String,Integer> biMap = HashBiMap.create();
         biMap.put("one",1000);
-
         biMap.inverse().get(1000);
     }
 }
