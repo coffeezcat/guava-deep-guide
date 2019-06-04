@@ -11,5 +11,5 @@
 - [特殊的比较器Ordering](https://github.com/coffeezcat/guava-deep-guide/blob/master/MD/basicutilities/特殊的比较器Ordering.md)
 
 #### 集合类工具
- 
+- [集合类工具](https://github.com/coffeezcat/guava-deep-guide/blob/master/MD/collections/集合类工具.md) 
     
