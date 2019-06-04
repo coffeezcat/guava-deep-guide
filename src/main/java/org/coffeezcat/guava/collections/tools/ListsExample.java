@@ -1,7 +1,11 @@
 package org.coffeezcat.guava.collections.tools;
 
 import com.google.common.collect.Lists;
+import com.google.common.collect.Sets;
 import org.junit.Test;
+
+import java.util.List;
+import java.util.Set;
 
 /**
  * @author yangweia
@@ -12,6 +16,7 @@ import org.junit.Test;
 public class ListsExample {
     @Test
     public void testLists(){
-
+        List<String> list = Lists.newArrayList();
+        Set<String> set = Sets.newHashSet();
     }
 }

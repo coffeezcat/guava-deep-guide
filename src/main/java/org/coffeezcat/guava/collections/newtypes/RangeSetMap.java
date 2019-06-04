@@ -17,6 +17,5 @@ public class RangeSetMap {
         RangeMap<Integer,String> setMap = TreeRangeMap.create();
         setMap.put(Range.closed(1, 10), "foo");
         System.out.println(setMap.get(5));
-
     }
 }

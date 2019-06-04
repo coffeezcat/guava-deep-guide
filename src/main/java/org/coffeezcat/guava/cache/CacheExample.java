@@ -25,7 +25,6 @@ public class CacheExample {
                     }
                 }
         );
-
         cache.put("key1","val");
         System.out.println(cache.getUnchecked("key1"));
         Thread.sleep(3000);
